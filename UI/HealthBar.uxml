@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/HealthBarUSS.uss?fileID=7433441132597879392&amp;guid=3e6230f1bd030584ca74a6a7059b8e65&amp;type=3#HealthBarUSS" />
+    <engine:ProgressBar value="100" title="60/60" name="HealthBar" style="position: absolute; width: 300px; top: -20px; left: -150px; color: rgb(202, 196, 196); -unity-font-style: bold-and-italic; -unity-text-align: upper-center; font-size: 20px;">
+        <engine:VisualElement name="Defense" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Intents/panel_defense_green.png?fileID=2800000&amp;guid=ee42ae6b2be584cdb94479582452c861&amp;type=3#panel_defense_green&quot;); position: absolute; height: 33px; top: 0; width: 32px; left: -50px; align-self: center; justify-content: center; font-size: 12px; -unity-text-align: middle-center; color: rgb(77, 75, 75); display: none;">
+            <engine:Label text="6" name="DefenseAmount" style="-unity-font-style: bold; font-size: 15px; color: rgb(157, 157, 157);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="buff" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Intents/buff_attack_up.png?fileID=2800000&amp;guid=810448b82870c45058f8b2de5423274a&amp;type=3#buff_attack_up&quot;); position: absolute; height: 33px; top: 0; width: 32px; left: 304px; align-self: center; justify-content: center; font-size: 12px; -unity-text-align: middle-center; color: rgb(77, 75, 75); display: flex;">
+            <engine:Label text="6" name="buffRound" style="-unity-font-style: bold; font-size: 15px; color: rgb(157, 157, 157); position: absolute; top: 0; left: 35px;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="intent" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Intents/buff_life_up.png?fileID=2800000&amp;guid=98d622e3aaa3e464a933a2720153fdae&amp;type=3#buff_life_up&quot;); position: absolute; height: 33px; top: -39px; width: 32px; left: 137px; align-self: center; justify-content: center; font-size: 12px; -unity-text-align: middle-center; color: rgb(77, 75, 75); display: none;">
+            <engine:Label text="10" name="intentAmount" style="-unity-font-style: bold; font-size: 22px; color: rgb(255, 255, 255); position: absolute; top: -4px; left: 35px;" />
+        </engine:VisualElement>
+    </engine:ProgressBar>
+</engine:UXML>
